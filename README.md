@@ -95,7 +95,7 @@ Las dependencias de desarrollo utilizadas son:
 Clonar el repositorio:
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/Richie2765/recuperacion-python-2330095.git
 ```
 
 Ingresar a la carpeta del proyecto:

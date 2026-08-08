@@ -80,9 +80,7 @@ def test_rechazar_codigo_duplicado():
 
 
 def test_buscar_componente_inexistente():
-    inventario = [
-        Componente("C001", "Arduino Uno", "Microcontrolador", 350.0, 5)
-    ]
+    inventario = [Componente("C001", "Arduino Uno", "Microcontrolador", 350.0, 5)]
 
     resultado = buscar_componente(inventario, "C999")
 
@@ -90,9 +88,7 @@ def test_buscar_componente_inexistente():
 
 
 def test_actualizar_componente():
-    inventario = [
-        Componente("C001", "Arduino Uno", "Microcontrolador", 350.0, 5)
-    ]
+    inventario = [Componente("C001", "Arduino Uno", "Microcontrolador", 350.0, 5)]
 
     resultado = actualizar_componente(
         inventario,
@@ -110,9 +106,7 @@ def test_actualizar_componente():
 
 
 def test_eliminar_componente():
-    inventario = [
-        Componente("C001", "Arduino Uno", "Microcontrolador", 350.0, 5)
-    ]
+    inventario = [Componente("C001", "Arduino Uno", "Microcontrolador", 350.0, 5)]
 
     resultado = eliminar_componente(inventario, "C001")
 
